@@ -1,0 +1,11 @@
+/project-folder
+  /css
+    styles.css
+  /js
+    script.js
+  /images
+    project1.jpg
+  index.html
+  about.html
+  contact.html
+  README.md
