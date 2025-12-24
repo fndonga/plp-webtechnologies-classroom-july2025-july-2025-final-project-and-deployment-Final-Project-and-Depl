@@ -1,0 +1,26 @@
+/* Responsive Header */
+header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  header nav ul {
+    flex-direction: column;
+  }
+}
+
+/* Project Cards */
+.project-card {
+  display: grid;
+  gap: 10px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
